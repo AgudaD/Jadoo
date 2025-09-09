@@ -1,0 +1,44 @@
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@100,200,300,400,500,700,800,900,1&display=swap");
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("/fonts/ProximaNova-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-black: #222123;
+  --color-main-bg: #232224;
+  --color-white: #ffffff;
+  --color-dark-brown: #523122;
+  --color-mid-brown: #a26833;
+  --color-light-brown: #e3a458;
+  --color-red-brown: #7f3b2d;
+  --color-yellow-brown: #a26833;
+  --color-milk-yellow: #e3d3bc;
+  --color-red: #a02128;
+  --color-milk: #faeade;
+  --font-sans: "Cabinet Grotesk", sans-serif;
+  --font-paragraph: "ProximaNova, sans-serif";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #523122;
+  font-family: "Cabinet Grotesk", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
