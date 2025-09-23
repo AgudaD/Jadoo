@@ -34,11 +34,13 @@ const HeroSection = () => {
     }).fromTo(".right-plane, .left-plane",{
         xPercent: -100,
         opacity: 0,
+        duration: 1.5,
         overflowX: "hidden"
     }, {
         xPercent: 0,
         opacity: 1,
         duration: 1.5,
+        stagger: 2,
         ease: "power1.inOut",
     })
   });
@@ -72,7 +74,7 @@ const HeroSection = () => {
           </button>
           <div className="flex items-center gap-3">
             <div>
-              <img src="/Play button.svg" alt="" className="w-10" />
+              <img src="public/images/Play button.svg" alt="" className="w-10" />
             </div>
             <p className="text-[#686D77]">Play Demo</p>
           </div>
@@ -81,9 +83,9 @@ const HeroSection = () => {
 
       {/* image */}
       <div className="relative hero-images">
-        <img src="/Traveller 1.svg" alt="" className="relative z-50" />
-        <img src="/plane.png" alt="" className="absolute top-10 left-0 left-plane" />
-        <img src="/plane.png" alt="" className="absolute top-16 right-0 right-plane" />
+        <img src="public/images/Traveller 1.svg" alt="" className="relative z-50" />
+        <img src="public/images/plane.png" alt="" className="absolute top-16 left-0 left-plane" />
+        <img src="public/images/plane.png" alt="" className="absolute top-24 -right-4 right-plane" />
       </div>
     </section>
   );
