@@ -8,6 +8,7 @@ import BookingSection from "./section/BookingSection";
 import TestimonialSection from "./section/TestimonialSection";
 import CategorySection from "./section/CategorySection";
 import NewsLetterSection from "./section/NewsLetterSection";
+import FooterSection from "./section/FooterSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -33,6 +34,7 @@ function App() {
             <BookingSection />
             <TestimonialSection />
             <NewsLetterSection />
+            <FooterSection />
           </div>
         </div>
       </div>

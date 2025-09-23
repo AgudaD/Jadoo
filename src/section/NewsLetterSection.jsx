@@ -70,7 +70,7 @@ const NewsLetterSection = () => {
         <img
           src="/images/senderIcon.svg"
           alt=""
-          className="absolute -top-5 -right-5 w-12"
+          className="absolute -top-3 -right-3 w-12"
         />
         <img
           src="/images/newsletterunderlay.svg"
