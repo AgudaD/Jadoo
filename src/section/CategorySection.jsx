@@ -2,7 +2,7 @@ import React from 'react'
 import { services } from '../constants'
 import Service from '../components/Service'
 
-const Category = () => {
+const CategorySection = () => {
   return (
     <section className='relative mt-20'>
         <img src="/images/bg-category.svg" alt="" className='absolute top-0 right-0' />
@@ -23,4 +23,4 @@ const Category = () => {
   )
 }
 
-export default Category
+export default CategorySection

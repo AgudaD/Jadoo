@@ -73,5 +73,9 @@ export const testimonials = [
 ]
 
 export const trustLogos = [
-  "/"
+  "/images/axonLogo.svg",
+  "/images/jetstarLogo.svg",
+  "/images/expediaLogo.svg",
+  "/images/qantasLogo.svg",
+  "/images/alitaliaLogo.svg"
 ]

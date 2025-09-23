@@ -3,10 +3,11 @@ import HeroSection from "./section/HeroSection";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollSmoother, ScrollTrigger } from "gsap/all";
-import Category from "./section/Category";
 import DestinationSection from "./section/DestinationSection";
 import BookingSection from "./section/BookingSection";
 import TestimonialSection from "./section/TestimonialSection";
+import CategorySection from "./section/CategorySection";
+import NewsLetterSection from "./section/NewsLetterSection";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -27,10 +28,11 @@ function App() {
           <div className="relative z-20 px-24 py-10">
             <Navbar />
             <HeroSection />
-            <Category />
+            <CategorySection />
             <DestinationSection />
             <BookingSection />
             <TestimonialSection />
+            <NewsLetterSection />
           </div>
         </div>
       </div>
