@@ -5,9 +5,9 @@ import TestimonialCard from "../components/TestimonialCard";
 const TestimonialSection = () => {
   return (
     <div className="mt-28 text-[#1E1F3D] flex items-center justify-between">
-      <div>
-        <h2 className="font-semibold">Testimonials</h2>
-        <h1 className="font-semibold text-6xl">What people say about Us.</h1>
+      <div className="space-y-4">
+        <h2 className="font-semibold uppercase tracking-wide">Testimonials</h2>
+        <h1 className="font-semibold text-6xl capitalize max-w-[30rem]">What people say about Us.</h1>
       </div>
 
       <div>

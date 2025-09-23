@@ -71,3 +71,7 @@ export const testimonials = [
     location: "Lahore, Pakistan"
   },
 ]
+
+export const trustLogos = [
+  "/"
+]

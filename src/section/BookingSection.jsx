@@ -7,7 +7,7 @@ const BookingSection = () => {
     <section className="mt-28 text-[#1E1F3D] flex items-center justify-between">
       <div className="space-y-5">
         <h2 className="font-semibold">Easy and Fast</h2>
-        <h1 className="text-6xl font-semibold">
+        <h1 className="text-6xl font-semibold capitalize">
           Book your next trip in 3 easy steps
         </h1>
 
