@@ -2,9 +2,9 @@ import React from "react";
 
 const Destination = ({ image, location, duration, price, icon }) => {
   return (
-    <div class="max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm drop-shadow-md">
-        <img class="rounded-t-xl w-full h-[20rem] object-cover" src={image} alt={location} />
-      <div class="p-5">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-xl shadow-sm drop-shadow-md">
+        <img className="rounded-t-xl w-full h-[20rem] object-cover" src={image} alt={location} />
+      <div className="p-5">
         <div className="flex items-center justify-between text-lg">
           <h2>{location}</h2>
           <p>{price}</p>

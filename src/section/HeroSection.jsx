@@ -69,14 +69,14 @@ const HeroSection = () => {
         </p>
 
         <div className="flex items-center gap-12 mt-5">
-          <button className="bg-yellow-500 rounded-md px-6 py-3 text-white">
+          <button className="bg-yellow-500 rounded-md px-6 py-3 text-white cursor-pointer">
             Find out more
           </button>
           <div className="flex items-center gap-3">
             <div>
               <img src="public/images/Play button.svg" alt="" className="w-10" />
             </div>
-            <p className="text-[#686D77]">Play Demo</p>
+            <p className="text-[#686D77] cursor-pointer">Play Demo</p>
           </div>
         </div>
       </div>
