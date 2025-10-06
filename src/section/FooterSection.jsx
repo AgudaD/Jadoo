@@ -30,8 +30,8 @@ const FooterSection = () => {
           </div>
           <h3 className="font-semibold text-lg">Discover our app</h3>
           <div className="flex items-center gap-3">
-              <img src="/public/images/Google Play.svg" alt="" />
-              <img src="/public/images/Play Store.svg" alt="" />
+              <img src="/images/Google Play.svg" alt="" />
+              <img src="/images/Play Store.svg" alt="" />
           </div>
         </div>
       </div>

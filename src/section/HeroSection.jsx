@@ -74,7 +74,7 @@ const HeroSection = () => {
           </button>
           <div className="flex items-center gap-3">
             <div>
-              <img src="public/images/Play button.svg" alt="" className="w-10" />
+              <img src="/images/Play button.svg" alt="" className="w-10" />
             </div>
             <p className="text-[#686D77] cursor-pointer">Play Demo</p>
           </div>
@@ -83,9 +83,9 @@ const HeroSection = () => {
 
       {/* image */}
       <div className="relative hero-images">
-        <img src="public/images/Traveller 1.svg" alt="" className="relative z-50" />
-        <img src="public/images/plane.png" alt="" className="hidden lg:block absolute top-16 left-0 left-plane" />
-        <img src="public/images/plane.png" alt="" className="absolute top-24 -right-4 right-plane" />
+        <img src="/images/Traveller 1.svg" alt="" className="relative z-50" />
+        <img src="/images/plane.png" alt="" className="hidden lg:block absolute top-16 left-0 left-plane" />
+        <img src="/images/plane.png" alt="" className="absolute top-24 -right-4 right-plane" />
       </div>
     </section>
   );

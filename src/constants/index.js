@@ -23,14 +23,14 @@ export const services = [
 
 export const destinations = [
   {
-    image: "public/images/Rome.jpg",
+    image: "/images/Rome.jpg",
     location: "Rome, Italty",
     duration: "10 Days Trip",
     price: "$5.42k",
     icon: "/images/navigation.svg"
   },
   {
-    image: "public/images/London.jpg",
+    image: "/images/London.jpg",
     location: "London, UK",
     duration: "12 Days Trip",
     price: "$4.2k",
@@ -65,7 +65,7 @@ export const bookingSteps = [
 
 export const testimonials = [
   {
-    image: "/public/images/avatarOne.svg",
+    image: "/images/avatarOne.svg",
     comment: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
     name: "Mike Taylor",
     location: "Lahore, Pakistan"
