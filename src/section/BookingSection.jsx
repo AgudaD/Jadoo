@@ -4,10 +4,10 @@ import BookingComponent from "../components/BookingComponent";
 
 const BookingSection = () => {
   return (
-    <section className="mt-28 text-[#1E1F3D] flex items-center justify-between">
-      <div className="space-y-5">
+    <section className="mt-28 text-[#1E1F3D] flex flex-col lg:flex-row items-center justify-between">
+      <div className="space-y-3 lg:space-y-5">
         <h2 className="font-semibold">Easy and Fast</h2>
-        <h1 className="text-6xl font-semibold capitalize">
+        <h1 className="text-3xl lg:text-6xl font-semibold capitalize">
           Book your next trip in 3 easy steps
         </h1>
 

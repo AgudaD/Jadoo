@@ -13,7 +13,7 @@ function App() {
     <SmoothScrolling>
       <main>
         <img src="/images/Decore.png" alt="" className="absolute top-0 right-0" />
-        <div className="relative z-20 px-24 py-10">
+        <div className="relative z-20 p-10 md:px-24 md:py-10 overflow-x-hidden">
           <Navbar />
           <HeroSection />
           <CategorySection />

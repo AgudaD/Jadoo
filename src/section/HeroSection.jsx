@@ -46,9 +46,9 @@ const HeroSection = () => {
   });
 
   return (
-    <section className="flex items-center justify-between mt-10 font-semibold">
-      <div className="max-w-[556px] space-y-8">
-        <h2 className="text-[#DF6951] font-bold text-2xl hero-text">
+    <section className="flex flex-col space-y-10 lg:flex lg:flex-row lg:space-y-0 items-center justify-between mt-10 font-semibold">
+      <div className="max-w-[556px] space-y-4 lg:space-y-8">
+        <h2 className="text-[#DF6951] font-bold lg:text-2xl hero-text">
           Best Destinations around the world
         </h2>
 
@@ -58,7 +58,7 @@ const HeroSection = () => {
           }}
           className="hero-clip"
         >
-          <h1 className="text-[#1E1F3D] text-[5rem] font-bold leading-18">
+          <h1 className="text-[#1E1F3D] text-[3rem] lg:text-[5rem] font-bold lg:leading-18">
             Travel, enjoy and live a new and full life
           </h1>
         </div>
@@ -69,7 +69,7 @@ const HeroSection = () => {
         </p>
 
         <div className="flex items-center gap-12 mt-5">
-          <button className="bg-yellow-500 rounded-md px-6 py-3 text-white cursor-pointer">
+          <button className="bg-yellow-500 rounded-md px-4 py-1.5 lg:px-6 lg:py-3 text-white cursor-pointer">
             Find out more
           </button>
           <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const HeroSection = () => {
       {/* image */}
       <div className="relative hero-images">
         <img src="public/images/Traveller 1.svg" alt="" className="relative z-50" />
-        <img src="public/images/plane.png" alt="" className="absolute top-16 left-0 left-plane" />
+        <img src="public/images/plane.png" alt="" className="hidden lg:block absolute top-16 left-0 left-plane" />
         <img src="public/images/plane.png" alt="" className="absolute top-24 -right-4 right-plane" />
       </div>
     </section>
