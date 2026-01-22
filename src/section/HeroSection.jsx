@@ -48,7 +48,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col space-y-10 lg:flex lg:flex-row lg:space-y-0 items-center justify-between mt-10 font-semibold">
       <div className="max-w-[556px] space-y-4 lg:space-y-8">
-        <h2 className="text-[#DF6951] font-bold lg:text-2xl hero-text">
+        <h2 className="text-black font-bold lg:text-2xl hero-text">
           Best Destinations around the world
         </h2>
 
@@ -58,7 +58,7 @@ const HeroSection = () => {
           }}
           className="hero-clip"
         >
-          <h1 className="text-[#1E1F3D] text-[3rem] lg:text-[5rem] font-bold lg:leading-18">
+          <h1 className="text-black text-[3rem] lg:text-[5rem] font-bold lg:leading-18">
             Travel, enjoy and live a new and full life
           </h1>
         </div>
